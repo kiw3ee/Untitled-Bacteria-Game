@@ -5,96 +5,81 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerController : MonoBehaviour
 {
-    [Header("Movement")]
-    public float movementSpeed = 5f;
-    public float verticalSpeed = 3f;
+    [Header("Movement Settings")]
+    public float moveSpeed = 5f;
+    public float acceleration = 10f;
 
-    [Header("Dash")]
-    public float dashSpeed = 20f;
-    public float dashDuration = 0.2f;
+    [Header("Dash Settings")]
+    public float dashForce = 20f;
     public float dashCooldown = 1f;
+    public float dashDuration = 3f;
+
+    public float rotationSpeed = 3f;
 
     private Rigidbody rb;
-    private bool isDashing = false;
-    private float dashTimer = 0f;
-    private float cooldownTimer = 0f;
-    private Vector3 dashDirection;
+    private Vector3 moveInput;
+    private float lastDashTime;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        rb.useGravity = true;     
-        rb.drag = 1f;              
+        rb.useGravity = false; // Turn off gravity for underwater movement
+        rb.drag = 2f; // Some drag for smooth underwater feel
     }
 
     void Update()
     {
-        if (cooldownTimer > 0f)
-            cooldownTimer -= Time.deltaTime;
+        // Get input for movement
+        float horizontal = Input.GetAxisRaw("Horizontal"); // A/D
+        float vertical = Input.GetAxisRaw("Vertical");     // W/S
+        float upDown = 0f;
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && !isDashing && cooldownTimer <= 0f)
+        if (Input.GetKey(KeyCode.E)) upDown += 1f; // Up
+        if (Input.GetKey(KeyCode.Q)) upDown -= 1f; // Down
+
+        // Combine into a movement vector relative to the player's orientation
+        moveInput = (transform.forward * vertical +
+                     transform.right * horizontal +
+                     transform.up * upDown).normalized;
+
+        // Dash input
+        if (Input.GetKeyDown(KeyCode.LeftShift) && Time.time >= lastDashTime + dashCooldown)
         {
-            StartDash();
+            Dash();
         }
+
+        RotatePlayer();
     }
 
     void FixedUpdate()
     {
-        if (isDashing)
-        {
-            rb.velocity = dashDirection * dashSpeed + Vector3.down * 1f; 
-            dashTimer -= Time.fixedDeltaTime;
-
-            if (dashTimer <= 0f)
-            {
-                isDashing = false;
-                cooldownTimer = dashCooldown;
-            }
-        }
-        else
-        {
-            MovePlayer();
-        }
+        // Smooth movement force
+        Vector3 targetVelocity = moveInput * moveSpeed;
+        Vector3 velocityChange = (targetVelocity - rb.velocity);
+        rb.AddForce(velocityChange * acceleration, ForceMode.Acceleration);
     }
 
-    void MovePlayer()
+    void Dash()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal"); 
-        float moveVertical = Input.GetAxis("Vertical");     
-        float moveUpDown = 0f;
-
-        if (Input.GetKey(KeyCode.E)) moveUpDown = 1f;
-        else if (Input.GetKey(KeyCode.Q)) moveUpDown = -1f;
-
-        Vector3 inputDirection = transform.forward * moveVertical +
-                                 transform.right * moveHorizontal +
-                                 transform.up * moveUpDown;
-
-        Vector3 moveVelocity = inputDirection.normalized * movementSpeed;
-
-        Vector3 currentVelocity = rb.velocity;
-        Vector3 verticalVelocity = Vector3.Project(currentVelocity, Vector3.up); 
-        rb.velocity = moveVelocity + verticalVelocity;
+        rb.AddForce(moveInput * dashForce, ForceMode.VelocityChange);
+        lastDashTime = Time.time;
     }
-
-    void StartDash()
+    
+    void RotatePlayer()
     {
-        float moveHorizontal = Input.GetAxisRaw("Horizontal");
-        float moveVertical = Input.GetAxisRaw("Vertical");
-        float moveUpDown = 0f;
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
 
-        if (Input.GetKey(KeyCode.E)) moveUpDown = 1f;
-        else if (Input.GetKey(KeyCode.Q)) moveUpDown = -1f;
+        Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);
+        movementDirection.Normalize();
 
-        Vector3 inputDir = transform.forward * moveVertical +
-                           transform.right * moveHorizontal +
-                           transform.up * moveUpDown;
+        transform.Translate(movementDirection * moveSpeed * Time.deltaTime, Space.World);
 
-        if (inputDir != Vector3.zero)
+        if(movementDirection != Vector3.zero)
         {
-            dashDirection = inputDir.normalized;
-            isDashing = true;
-            dashTimer = dashDuration;
+            Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
+
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
         }
     }
 }
