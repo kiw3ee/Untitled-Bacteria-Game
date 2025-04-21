@@ -298,7 +298,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Packages
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -306,16 +306,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Packages
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\micha\OneDrive - Drexel University\Year 2\Spring Quarter\GMAP
-    345 (Game Dev Foundations)\Lab3FR
+  m_LastProjectPath: C:\Users\micha\OneDrive\Documents\GitHub\Untitled-Bacteria-Game\Lab3FR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ffffff7f
-    m_LastClickedID: 2147483647
+    m_SelectedIDs: 96a00000
+    m_LastClickedID: 41110
     m_ExpandedIDs: 0000000096a0000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1069,7 +1068,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 30fbffff
+      m_ExpandedIDs: 24fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
