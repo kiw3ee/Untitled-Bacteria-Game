@@ -2,14 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody))]
 public class PlayerController : MonoBehaviour
 {
-    [Header("Movement Settings")]
+    //move variables
     public float moveSpeed = 5f;
     public float acceleration = 10f;
 
-    [Header("Dash Settings")]
+    //dash variables
     public float dashForce = 20f;
     public float dashCooldown = 1f;
     public float dashDuration = 3f;

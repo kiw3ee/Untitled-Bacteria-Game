@@ -13,6 +13,11 @@ public class BasicAIMovement : MonoBehaviour
 
     void Update()
     {
+        if (player == null)
+        {
+            return;
+        }
+        
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
         if (distanceToPlayer <= detectionRadius)
