@@ -8,7 +8,7 @@ public class DeathScreen : MonoBehaviour
     public void GoToMainMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("TItleScreen");
+        SceneManager.LoadScene("TitleScreen");
     }
 
     public void QuitGame()
