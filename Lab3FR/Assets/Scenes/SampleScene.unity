@@ -36880,7 +36880,7 @@ GameObject:
   - component: {fileID: 291553231}
   m_Layer: 0
   m_Name: Enemy 06
-  m_TagString: Untagged
+  m_TagString: EnemyLevelOne
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45309,7 +45309,7 @@ GameObject:
   - component: {fileID: 363739434}
   m_Layer: 0
   m_Name: Enemy 02
-  m_TagString: Untagged
+  m_TagString: EnemyLevelOne
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56644,7 +56644,7 @@ GameObject:
   - component: {fileID: 492443592}
   m_Layer: 0
   m_Name: Enemy 08
-  m_TagString: Untagged
+  m_TagString: EnemyLevelOne
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88178,7 +88178,7 @@ GameObject:
   - component: {fileID: 758607509}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: EnemyLevelOne
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124478,7 +124478,7 @@ GameObject:
   - component: {fileID: 1089903636}
   m_Layer: 0
   m_Name: Enemy 04
-  m_TagString: Untagged
+  m_TagString: EnemyLevelOne
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127327,7 +127327,7 @@ GameObject:
   - component: {fileID: 1118667535}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: EnemyLevelOne
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140245,7 +140245,7 @@ GameObject:
   - component: {fileID: 1228358319}
   m_Layer: 0
   m_Name: Enemy 03
-  m_TagString: Untagged
+  m_TagString: EnemyLevelOne
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -145102,7 +145102,7 @@ GameObject:
   - component: {fileID: 1284084347}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: EnemyLevelOne
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -172285,6 +172285,37 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1511320605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1511320606}
+  m_Layer: 0
+  m_Name: bulletSpawnPoint
+  m_TagString: EnemyLevelOne
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1511320606
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511320605}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.96}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1741897824}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1513013810
 GameObject:
   m_ObjectHideFlags: 0
@@ -175525,7 +175556,7 @@ GameObject:
   - component: {fileID: 1537139952}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: EnemyLevelOne
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -198596,9 +198627,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1741897824}
   - component: {fileID: 1741897825}
+  - component: {fileID: 1741897826}
   m_Layer: 0
   m_Name: Enemy 01
-  m_TagString: Untagged
+  m_TagString: EnemyLevelOne
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -198618,6 +198650,7 @@ Transform:
   m_Children:
   - {fileID: 2080618937}
   - {fileID: 758607509}
+  - {fileID: 1511320606}
   m_Father: {fileID: 333080305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1741897825
@@ -198650,6 +198683,24 @@ MonoBehaviour:
   detectionRadius: 10
   moveSpeed: 7.5
   waypointTolerance: 0.2
+--- !u!114 &1741897826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741897822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c47dd31cf0bcc34b8d05fa3e1a1a87e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1873918768}
+  enemyBulletSpawnPoint: {fileID: 1511320606}
+  enemyBulletPrefab: {fileID: 5437318683886481767, guid: 720f46c0b2656794f9fc676e66ae7670, type: 3}
+  detectionRadius: 10
+  bulletSpeed: 10
+  fireRate: 5
 --- !u!1 &1742498644
 GameObject:
   m_ObjectHideFlags: 0
@@ -201795,7 +201846,7 @@ GameObject:
   - component: {fileID: 1772550860}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: EnemyLevelOne
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -207831,7 +207882,7 @@ GameObject:
   - component: {fileID: 1818950638}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: EnemyLevelOne
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -213286,7 +213337,7 @@ Transform:
   m_GameObject: {fileID: 1873918762}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 229.72, y: 1.85, z: -290.39}
+  m_LocalPosition: {x: 236.1, y: 1.85, z: -245}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -225676,7 +225727,7 @@ GameObject:
   - component: {fileID: 1977456539}
   m_Layer: 0
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: EnemyLevelOne
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -232837,7 +232888,7 @@ GameObject:
   - component: {fileID: 2035792469}
   m_Layer: 0
   m_Name: Enemy 05
-  m_TagString: Untagged
+  m_TagString: EnemyLevelOne
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -233457,7 +233508,7 @@ GameObject:
   - component: {fileID: 2044267869}
   m_Layer: 0
   m_Name: Enemy 07
-  m_TagString: Untagged
+  m_TagString: EnemyLevelOne
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
