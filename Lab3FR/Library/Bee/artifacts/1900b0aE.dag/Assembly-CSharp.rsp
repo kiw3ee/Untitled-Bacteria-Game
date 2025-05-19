@@ -359,6 +359,7 @@
 "Assets/Scripts/BasicAIMovement.cs"
 "Assets/Scripts/CameraRotateScript.cs"
 "Assets/Scripts/CollisionHealthDecrease.cs"
+"Assets/Scripts/Dash Bubbles.cs"
 "Assets/Scripts/DeathScreen.cs"
 "Assets/Scripts/EnemyShooting.cs"
 "Assets/Scripts/EvolutionCheck.cs"
