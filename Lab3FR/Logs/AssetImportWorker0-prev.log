@@ -15,7 +15,7 @@ C:/Users/kiwib/OneDrive/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54886
+61089
 Successfully changed project path to: C:/Users/kiwib/OneDrive/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR
 C:/Users/kiwib/OneDrive/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/kiwib/OneDrive/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23952] Host "[IP] 10.16.55.68 [Port] 0 [Flags] 2 [Guid] 1851389593 [EditorId] 1851389593 [Version] 1048832 [Id] WindowsEditor(7,keira) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [36516] Host "[IP] 10.16.55.68 [Port] 0 [Flags] 2 [Guid] 2492699051 [EditorId] 2492699051 [Version] 1048832 [Id] WindowsEditor(7,keira) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23952] Host "[IP] 10.16.55.68 [Port] 0 [Flags] 2 [Guid] 1851389593 [EditorId] 1851389593 [Version] 1048832 [Id] WindowsEditor(7,keira) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [36516] Host "[IP] 10.16.55.68 [Port] 0 [Flags] 2 [Guid] 2492699051 [EditorId] 2492699051 [Version] 1048832 [Id] WindowsEditor(7,keira) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 15.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 14.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.17f1 (4fc78088f837)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015584 seconds.
-- Loaded All Assemblies, in  0.614 seconds
+Registered in 0.011239 seconds.
+- Loaded All Assemblies, in  0.511 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.436 seconds
-Domain Reload Profiling: 1047ms
-	BeginReloadAssembly (171ms)
+- Finished resetting the current domain, in  0.395 seconds
+Domain Reload Profiling: 904ms
+	BeginReloadAssembly (152ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (58ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (106ms)
-	LoadAllAssembliesAndSetupDomain (259ms)
-		LoadAssemblies (167ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (150ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (255ms)
-			TypeCache.Refresh (253ms)
-				TypeCache.ScanAssembly (233ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (184ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (436ms)
+	FinalizeReload (395ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (339ms)
+		SetupLoadedEditorAssemblies (314ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (7ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (235ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,52 +117,52 @@ Domain Reload Profiling: 1047ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.809 seconds
-Refreshing native plugins compatible for Editor in 4.87 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.908 seconds
+Refreshing native plugins compatible for Editor in 6.14 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.824 seconds
-Domain Reload Profiling: 1629ms
-	BeginReloadAssembly (173ms)
+- Finished resetting the current domain, in  0.857 seconds
+Domain Reload Profiling: 1761ms
+	BeginReloadAssembly (219ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (523ms)
-		LoadAssemblies (347ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (560ms)
+		LoadAssemblies (414ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (274ms)
-			TypeCache.Refresh (239ms)
+		AnalyzeDomain (268ms)
+			TypeCache.Refresh (235ms)
 				TypeCache.ScanAssembly (213ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (824ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (858ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (609ms)
+		SetupLoadedEditorAssemblies (640ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (456ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (495ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 7.39 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 6.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3562 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (114.6 KB). Loaded Objects now: 4037.
-Memory consumption went from 219.2 MB to 219.1 MB.
-Total: 3.737400 ms (FindLiveObjects: 0.530000 ms CreateObjectMapping: 0.330200 ms MarkObjects: 2.679900 ms  DeleteObjects: 0.196000 ms)
+Unloading 38 unused Assets / (98.7 KB). Loaded Objects now: 4038.
+Memory consumption went from 218.9 MB to 218.8 MB.
+Total: 4.002800 ms (FindLiveObjects: 0.399600 ms CreateObjectMapping: 0.128500 ms MarkObjects: 3.290000 ms  DeleteObjects: 0.183200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,265 +180,577 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 488201.571214 seconds.
-  path: Assets/SkySeries Freebie
-  artifactKey: Guid(9e4b661114106fa44ade76e0131cb7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie using Guid(9e4b661114106fa44ade76e0131cb7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ebc58da306a3b33525fad8deb4a8e2') in 0.002983 seconds
+  Time since last request: 490292.900799 seconds.
+  path: Assets/Environment Assets
+  artifactKey: Guid(e9455b6721b618a498a0c4003d220aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets using Guid(e9455b6721b618a498a0c4003d220aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa4ec34b3ea826ed7f9d0876c4f8115') in 0.003444 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 124.003143 seconds.
-  path: Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat
-  artifactKey: Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat using Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdde2bf7058d845658eecd54ef2ebd8') in 0.193835 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 993.556884 seconds.
-  path: Assets/SkySeries Freebie/Hdri setup.txt
-  artifactKey: Guid(add36ebe5ee5af347a876cdf41d00709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/Hdri setup.txt using Guid(add36ebe5ee5af347a876cdf41d00709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4677fd15d180339d4816fb0cd27f1dc2') in 0.002398 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 14.191570 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/UnderTheSea4k.hdr
-  artifactKey: Guid(26cddb2a3a1bc804d8e9ca09b109793a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/UnderTheSea4k.hdr using Guid(26cddb2a3a1bc804d8e9ca09b109793a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8f3de225b095d24e71a2cbfea77a76') in 0.149652 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.548 seconds
-Refreshing native plugins compatible for Editor in 5.82 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.365 seconds
-Domain Reload Profiling: 2909ms
-	BeginReloadAssembly (187ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (262ms)
-		LoadAssemblies (343ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (2366ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1080ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (221ms)
-			ProcessInitializeOnLoadAttributes (761ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
-			AfterProcessingInitializeOnLoad (17ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 9.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3522 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (87.4 KB). Loaded Objects now: 4084.
-Memory consumption went from 217.2 MB to 217.1 MB.
-Total: 5.277800 ms (FindLiveObjects: 0.513500 ms CreateObjectMapping: 0.686900 ms MarkObjects: 3.955100 ms  DeleteObjects: 0.120800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 57.511690 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudEQ_hdr.exr
-  artifactKey: Guid(09999639e73bcd64abda22253af612d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudEQ_hdr.exr using Guid(09999639e73bcd64abda22253af612d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec97e43f5849d4eb1231f52a239782b') in 0.128303 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 83.946065 seconds.
-  path: Assets/Prefabs/Bubbles Dense.prefab
-  artifactKey: Guid(20c5ed5b20385e141b0ad868f90a004a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bubbles Dense.prefab using Guid(20c5ed5b20385e141b0ad868f90a004a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd286427dc47344454ae31c95a020d4d2') in 0.064833 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prefabs/Enemy Projectile.prefab
-  artifactKey: Guid(720f46c0b2656794f9fc676e66ae7670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemy Projectile.prefab using Guid(720f46c0b2656794f9fc676e66ae7670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6041ba9c8011f918c623e37fc305529') in 0.059123 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.181643 seconds.
-  path: Assets/Sprites/bubble temporary.png
-  artifactKey: Guid(7ccf63ca24e3e714ca0ad18639649f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/bubble temporary.png using Guid(7ccf63ca24e3e714ca0ad18639649f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8321bfc5c192d22d89c2931601936830') in 0.053498 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.179585 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri
-  artifactKey: Guid(d78fe5a22bec38d43bbe7e846ac3925a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri using Guid(d78fe5a22bec38d43bbe7e846ac3925a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73c9420183901d71f814914a8b4b472') in 0.000696 seconds
+  Time since last request: 659.371552 seconds.
+  path: Assets/Pandazole_Ultimate_Pack
+  artifactKey: Guid(3cb7fc85a3a3bba41afc9cb562df918b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack using Guid(3cb7fc85a3a3bba41afc9cb562df918b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6bcb1c8467163124da4ff9a2757e9b') in 0.000930 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.057497 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/AmbienceExposure4k.hdr
-  artifactKey: Guid(c9bc6cdb7a2e78b4c85ae74715b0a355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/AmbienceExposure4k.hdr using Guid(c9bc6cdb7a2e78b4c85ae74715b0a355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b106130b94af78c6b0de759cc8660554') in 0.118182 seconds
+  Time since last request: 1.975855 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack
+  artifactKey: Guid(7a61129ba867e5b41ae17925a3c436b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack using Guid(7a61129ba867e5b41ae17925a3c436b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd5d648c7efebcd9f9b68b973cb69bb') in 0.000610 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.007176 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayLeft.hdr
-  artifactKey: Guid(a78d8299279fda54098aca1c72ecfae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayLeft.hdr using Guid(a78d8299279fda54098aca1c72ecfae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73b5c1242135d14e875d95172fadc76') in 0.043813 seconds
+  Time since last request: 3.672450 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Materials
+  artifactKey: Guid(01f7d21d7ce46c1469fceed89d66ea87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Materials using Guid(01f7d21d7ce46c1469fceed89d66ea87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6b3991d36f7fe04923aeef1e7fcaaa') in 0.000630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.050555 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Materials/PandaMat.mat
+  artifactKey: Guid(772d9d9117eab56479d2738f542c054c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Materials/PandaMat.mat using Guid(772d9d9117eab56479d2738f542c054c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f2e2eca8a415c6a57d5a2f566bb6bc') in 0.143183 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/SunlessCirruscover4k.hdr
-  artifactKey: Guid(99af420a4ccafa74abdc47436d8b0685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/SunlessCirruscover4k.hdr using Guid(99af420a4ccafa74abdc47436d8b0685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fc5c60560b2f31582dcd7e9ae34c4f') in 0.059993 seconds
+  Time since last request: 1.598299 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models
+  artifactKey: Guid(436cb50efa45479498fcd8c6af519aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models using Guid(436cb50efa45479498fcd8c6af519aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de0149c85b453c79b1bb97e965d2363') in 0.000785 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002277 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayTop.hdr
-  artifactKey: Guid(c769857dc541ab7449d1352d7ff46ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayTop.hdr using Guid(c769857dc541ab7449d1352d7ff46ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dcbe7cee98a57f00f924473357c6687') in 0.047900 seconds
+  Time since last request: 0.048221 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Bones_01.fbx
+  artifactKey: Guid(f359dcf19cb15ac4ab7adf7d2e392d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Bones_01.fbx using Guid(f359dcf19cb15ac4ab7adf7d2e392d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52efe80e3c868322f5b2e63d7e5c3e05') in 0.143654 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004326 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudRight.hdr
-  artifactKey: Guid(438e868ac8cccca4e81873838a67c003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudRight.hdr using Guid(438e868ac8cccca4e81873838a67c003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b1a684a497935dc5ec99cf4a8ac7f3') in 0.041996 seconds
+  Time since last request: 0.000042 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_18.fbx
+  artifactKey: Guid(8d3e133b3a540004cabe8c050a0e4f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_18.fbx using Guid(8d3e133b3a540004cabe8c050a0e4f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca5d5f374f887982aaab997c31ece06') in 0.063593 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudLeft.hdr
-  artifactKey: Guid(740f96d568f4f3e40b049c40f11603e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/CosmicCoolCloudLeft.hdr using Guid(740f96d568f4f3e40b049c40f11603e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a5e97499018d16862c6150af9708b8') in 0.056565 seconds
+  Time since last request: 0.000698 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_01.fbx
+  artifactKey: Guid(0f05894fc7ccd1b4aa421125064e1dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_01.fbx using Guid(0f05894fc7ccd1b4aa421125064e1dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5e572be0ebbc77eaf2c6b604b38f63') in 0.063841 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDayFront.hdr
-  artifactKey: Guid(4499836ec803a0443834895abc208fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDayFront.hdr using Guid(4499836ec803a0443834895abc208fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52659ecedc507c82504a7f981f8a9200') in 0.039420 seconds
+  Time since last request: 0.000965 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_20.fbx
+  artifactKey: Guid(d5f64518154fd81419c82c87024aaa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_20.fbx using Guid(d5f64518154fd81419c82c87024aaa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabab428a04209032cb5204e03952925') in 0.101627 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000920 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/MegaSunFront.hdr
-  artifactKey: Guid(b915aaf1fa7dbd54a9e60e42712933a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/MegaSunFront.hdr using Guid(b915aaf1fa7dbd54a9e60e42712933a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e046a582acc5c0e924240149e5d451ea') in 0.041484 seconds
+  Time since last request: 0.000788 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_12.fbx
+  artifactKey: Guid(9b360ee27576a414dbea722945913146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_12.fbx using Guid(9b360ee27576a414dbea722945913146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ee919f5282361e30348d0781d4eaa9') in 0.050054 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_08.fbx
+  artifactKey: Guid(7bd4248112267ca40a35cfb1f05b28e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_08.fbx using Guid(7bd4248112267ca40a35cfb1f05b28e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02f9f1536450b7886a01ce73e4aa50b') in 0.045605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_22.fbx
+  artifactKey: Guid(15c04121df1f4914f8c4ad47a11654a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_22.fbx using Guid(15c04121df1f4914f8c4ad47a11654a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99cb9c6f57fd53fcd0127be25578868e') in 0.073919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/CloudedSunGlow4k.hdr
-  artifactKey: Guid(12c15a8e5a294be45819b1dd4b9b08d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/CloudedSunGlow4k.hdr using Guid(12c15a8e5a294be45819b1dd4b9b08d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68ddcff28d9f333fe9fbecf01e979d8') in 0.122857 seconds
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_04.fbx
+  artifactKey: Guid(660db671949e3c14f9b917fba8d64867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_04.fbx using Guid(660db671949e3c14f9b917fba8d64867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04da02f669ed3da8aa7d3a8876be6e32') in 0.044874 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/HighFantasy4k.hdr
-  artifactKey: Guid(6e998e53d0a82bb45928cd08a0fcfff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/HighFantasy4k.hdr using Guid(6e998e53d0a82bb45928cd08a0fcfff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239bca60ab04635ae78f72584df1c17e') in 0.121242 seconds
+  Time since last request: 0.000427 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_09.fbx
+  artifactKey: Guid(85fc9229e61470f4f95635896a0146c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_09.fbx using Guid(85fc9229e61470f4f95635896a0146c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43127f60b6fe44f4b61bbe7711bbb49') in 0.045546 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/PlanetaryEarth4k.hdr
-  artifactKey: Guid(3675d0c3c874f6b479bab57eb7e68c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/PlanetaryEarth4k.hdr using Guid(3675d0c3c874f6b479bab57eb7e68c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f33ec16ccad624fd2a181bfb604c72') in 0.071885 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/SkyhighFluffycloudField4k.hdr
-  artifactKey: Guid(18a0be10f0f64ac4c9f679d68e2cf857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/SkyhighFluffycloudField4k.hdr using Guid(18a0be10f0f64ac4c9f679d68e2cf857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e70a419dde1d8203e39fa2ab601b0b') in 0.097376 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/Cloudymorning4k.hdr
-  artifactKey: Guid(3b5d67736d7b8ad4f8da4d58eaef0b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/Cloudymorning4k.hdr using Guid(3b5d67736d7b8ad4f8da4d58eaef0b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97046e7e4e18c881f52b347affcd62e') in 0.087823 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/FluffballDay4k.hdr
-  artifactKey: Guid(3e80b688af9b1d84ea52c5d36bb1cbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/FluffballDay4k.hdr using Guid(3e80b688af9b1d84ea52c5d36bb1cbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd03bbfb64c895b1e8efabf0cfc51a2b') in 0.149818 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
   Time since last request: 0.000045 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/MegaSunBottom.hdr
-  artifactKey: Guid(3de85f3af41435a4c8f9d237bc1f19ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/MegaSunBottom.hdr using Guid(3de85f3af41435a4c8f9d237bc1f19ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91030bd2cd10ff0ac9d8e6dd26ba79e') in 0.092424 seconds
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Bones_06.fbx
+  artifactKey: Guid(652e9738e5069a14bb4d94d887027baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Bones_06.fbx using Guid(652e9738e5069a14bb4d94d887027baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4973ad3355280f385c95e338088ac85') in 0.054685 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000560 seconds.
-  path: Assets/SkySeries Freebie/FreebieHdri/DarkStorm4K.hdr
-  artifactKey: Guid(762f22ba43541df4e95e0e7126e8d96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/FreebieHdri/DarkStorm4K.hdr using Guid(762f22ba43541df4e95e0e7126e8d96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b560b1cfa8da959458e902cc5cb4010a') in 0.061400 seconds
+  Time since last request: 0.003399 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_17.fbx
+  artifactKey: Guid(2f83533e5d20080469de8658f00ba556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_17.fbx using Guid(2f83533e5d20080469de8658f00ba556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252328537bf9a7238bbbec9e27b193c8') in 0.033539 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Bones_05.fbx
+  artifactKey: Guid(a212cbc00d88bc24d98105800193b585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Bones_05.fbx using Guid(a212cbc00d88bc24d98105800193b585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74fc23d68befe10f2d91c24f38b609f') in 0.043709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_34.fbx
+  artifactKey: Guid(b3199bb6f7dc8da4890c06caf929ff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_34.fbx using Guid(b3199bb6f7dc8da4890c06caf929ff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75038ba1a18f91c9794f166698c7b0b0') in 0.043898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_04.fbx
+  artifactKey: Guid(098b5c7b40908cb44bc37188353f3e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_04.fbx using Guid(098b5c7b40908cb44bc37188353f3e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b5a67b768f8f9da890409140ccc502') in 0.039834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_33.fbx
+  artifactKey: Guid(f489ad3f78f060e48a6a12c0e759a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_33.fbx using Guid(f489ad3f78f060e48a6a12c0e759a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b8aa154d1df443a64289a4f8132b13') in 0.051869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000904 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Bones_04.fbx
+  artifactKey: Guid(fa4c5f2a0d7dd36479c2edc43d86efd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Bones_04.fbx using Guid(fa4c5f2a0d7dd36479c2edc43d86efd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a369c5847a0f75052f9a6c17b9ebcb') in 0.072103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_02.fbx
+  artifactKey: Guid(b555d7a9406019244b7f7189534f3d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_02.fbx using Guid(b555d7a9406019244b7f7189534f3d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1b10d9024027917d0df6acac6af742') in 0.043711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.002453 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_21.fbx
+  artifactKey: Guid(1f1573f8b801a074ea710afb6f65bb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_21.fbx using Guid(1f1573f8b801a074ea710afb6f65bb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8a52cb41d5b804365c062115030568') in 0.106545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_19.fbx
+  artifactKey: Guid(b1bf3be446a93ab4b86adb1a170981b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Coral_19.fbx using Guid(b1bf3be446a93ab4b86adb1a170981b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2aff8461a4f56a606b0c36fd1bfef6') in 0.047610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000852 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_06.fbx
+  artifactKey: Guid(59ccc5a85082ff449a66584c43f79b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_06.fbx using Guid(59ccc5a85082ff449a66584c43f79b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13ebe5c49a31106b138415aa7c70c64') in 0.098446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_05.fbx
+  artifactKey: Guid(e64c45d7dda75614795726c493ac7e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_05.fbx using Guid(e64c45d7dda75614795726c493ac7e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c786f71b111243520f93683c1145e96c') in 0.072916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.785800 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_07.fbx
+  artifactKey: Guid(13120f4f01269714f8b8ae5407732531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_07.fbx using Guid(13120f4f01269714f8b8ae5407732531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b2a4fbc0d7f705be6faa58f9e6b474') in 0.039549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.001098 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_11.fbx
+  artifactKey: Guid(489e61c6e3c6699488ddf1249ec8f913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_11.fbx using Guid(489e61c6e3c6699488ddf1249ec8f913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8566edad522431b1c984060b5b6690') in 0.047065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.001009 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_21.fbx
+  artifactKey: Guid(761769e575399dc49bafb4ccbf5febad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_21.fbx using Guid(761769e575399dc49bafb4ccbf5febad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bb82a4e218f98d73705f6f472c695f') in 0.049035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000824 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_10.fbx
+  artifactKey: Guid(0e7b81e0d74c8024ea0eacb37a20ea84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_10.fbx using Guid(0e7b81e0d74c8024ea0eacb37a20ea84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59c73baadab76d160087ad52fcec82d') in 0.047157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_33.fbx
+  artifactKey: Guid(0e497d27268cc754b81e8ee2383ec45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_33.fbx using Guid(0e497d27268cc754b81e8ee2383ec45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deee940007d26471f23ebbef788dd9e3') in 0.036156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_35.fbx
+  artifactKey: Guid(4ce6c0fb3993ee14a8120eec0cf549d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_35.fbx using Guid(4ce6c0fb3993ee14a8120eec0cf549d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e63310e5f03e2f6ce535def52a34f2') in 0.045604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_41.fbx
+  artifactKey: Guid(95779b05eaba3f244b59463a39bd730a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_41.fbx using Guid(95779b05eaba3f244b59463a39bd730a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5859c9d77983783ce81a1b5ac83be8af') in 0.033077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_38.fbx
+  artifactKey: Guid(f12515c052766fe4299fd6ec30d33dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_38.fbx using Guid(f12515c052766fe4299fd6ec30d33dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba7262f56cbe9f2e4a9b142cc7b2ca8') in 0.046223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_36.fbx
+  artifactKey: Guid(cc93ea625534c324091c8bfcf9054e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_36.fbx using Guid(cc93ea625534c324091c8bfcf9054e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d7ebaebe628dd4e3ad675df088520c') in 0.039970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Thorns_04.fbx
+  artifactKey: Guid(67b48db64174fc84099a93140f503564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Thorns_04.fbx using Guid(67b48db64174fc84099a93140f503564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a362f81521f5eb37893a80072c2082e') in 0.040386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_23.fbx
+  artifactKey: Guid(e126e6673f68100468185671ceec01dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_23.fbx using Guid(e126e6673f68100468185671ceec01dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597430dff8d8356758a9e19562f373e2') in 0.031361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_30.fbx
+  artifactKey: Guid(767315d6ec2c53c4d847a4a1ea5e5d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_30.fbx using Guid(767315d6ec2c53c4d847a4a1ea5e5d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7003ee8204b59f1abd4f73d89c91cd') in 0.037998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Thorns_10.fbx
+  artifactKey: Guid(e235eeeac35d63347a5977d573804eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Thorns_10.fbx using Guid(e235eeeac35d63347a5977d573804eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f468551e986507d8ca94daa13ca9ab') in 0.034451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Thorns_06.fbx
+  artifactKey: Guid(bdb6350db71477c479cab23303d15817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Thorns_06.fbx using Guid(bdb6350db71477c479cab23303d15817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07223558c7b0b58cc5cb5e6ed45be3a') in 0.038296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_18.fbx
+  artifactKey: Guid(95de27b3ec725764d9c2cb42c155cbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_18.fbx using Guid(95de27b3ec725764d9c2cb42c155cbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa9c4bfe5fa6ec29fbe8214c0202979') in 0.035910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_14.fbx
+  artifactKey: Guid(a6eedb6e38d02d8479c1e6d6b7602f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_14.fbx using Guid(a6eedb6e38d02d8479c1e6d6b7602f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a02c60e151fe9f1f78facaafd45117') in 0.031289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_28.fbx
+  artifactKey: Guid(a71a676d7400ee044908fe44566bc36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_28.fbx using Guid(a71a676d7400ee044908fe44566bc36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab68a418e3e66a9e4d58e13a8e1595c') in 0.040362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_09.fbx
+  artifactKey: Guid(cf58b197957630c4a97fa54b2652a0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_09.fbx using Guid(cf58b197957630c4a97fa54b2652a0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4094dabba04ecb0aea6caea55533e4d2') in 0.032274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.008768 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_32.fbx
+  artifactKey: Guid(d70cef8e1337c28479863731f85e9b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_32.fbx using Guid(d70cef8e1337c28479863731f85e9b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35fe35cc2e8a4961d2884f7ead15471') in 0.034517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Thorns_12.fbx
+  artifactKey: Guid(89e31d0f914ccd94983570d4cc385bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Thorns_12.fbx using Guid(89e31d0f914ccd94983570d4cc385bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bcbda89c88bd05b347894b680b61f8') in 0.033613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_25.fbx
+  artifactKey: Guid(fec7e92752e8c3243a8579fd785f7572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_25.fbx using Guid(fec7e92752e8c3243a8579fd785f7572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071d1306b221e89904b82c0d14fc8434') in 0.034349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_27.fbx
+  artifactKey: Guid(0cd25e95d0d8d9648916b88112be104f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_27.fbx using Guid(0cd25e95d0d8d9648916b88112be104f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb03c9a5fb38ea6660e7ca1cd3511a4') in 0.045907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Thorns_08.fbx
+  artifactKey: Guid(1e5c4c225d2099245967ab64d5f18aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Thorns_08.fbx using Guid(1e5c4c225d2099245967ab64d5f18aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840f4f278632163926a1640316f7f0c1') in 0.041757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Thorns_13.fbx
+  artifactKey: Guid(bc0cc6f1f79c1244ca8e3a07d5fd72d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Thorns_13.fbx using Guid(bc0cc6f1f79c1244ca8e3a07d5fd72d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd1e47bb31a725c6ad7e40574bea215') in 0.055759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.004195 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_19.fbx
+  artifactKey: Guid(2550ca807af93494789460b8fe97a5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_19.fbx using Guid(2550ca807af93494789460b8fe97a5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb268b0f2a520b29f6af60a316a56f38') in 0.032466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_20.fbx
+  artifactKey: Guid(7e52ae6c928a7b24987e43f30401d5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_20.fbx using Guid(7e52ae6c928a7b24987e43f30401d5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036bd08050152b41dc2a152f488c484b') in 0.035709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_15.fbx
+  artifactKey: Guid(e86752297fafb8541b04644e50f2792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Grass_15.fbx using Guid(e86752297fafb8541b04644e50f2792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020e4e1fce4e29073d6ce3965648ca6a') in 0.040183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Thorns_01.fbx
+  artifactKey: Guid(e43d0aa132321724a9f45e4a30babfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Nature Environment Pack/Models/Thorns_01.fbx using Guid(e43d0aa132321724a9f45e4a30babfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3bba0bb012b2fd88021036cf288d179') in 0.032488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 25.251759 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Bones_03.prefab
+  artifactKey: Guid(ef6c0c771921cd345afb4758d60892ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Bones_03.prefab using Guid(ef6c0c771921cd345afb4758d60892ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8505f86a8a80c38a57c155a4e4d48ef6') in 0.031674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Coral_08.prefab
+  artifactKey: Guid(500924368d61e614bb4cc304d595f776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Coral_08.prefab using Guid(500924368d61e614bb4cc304d595f776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5aa4ced02aecba4fbdd3cd41f04c80') in 0.044543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Coral_18.prefab
+  artifactKey: Guid(1ff04d07519cb854ca434757ea85fdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Coral_18.prefab using Guid(1ff04d07519cb854ca434757ea85fdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acde338b2026a301f8e05b0e774588cc') in 0.030730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Coral_03.prefab
+  artifactKey: Guid(a5f699a4c6a81414fbeb528dfde804c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Coral_03.prefab using Guid(a5f699a4c6a81414fbeb528dfde804c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65113798684a5efc29d50baf2e5fe992') in 0.037368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001572 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Coral_11.prefab
+  artifactKey: Guid(ad0b109f6ceceab4fac10de9d00ad8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Coral_11.prefab using Guid(ad0b109f6ceceab4fac10de9d00ad8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d7738b9b7cf6db20320a81116fff69') in 0.204384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Coral_01.prefab
+  artifactKey: Guid(58fb14acf50718e41ae6a15e3600dc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Coral_01.prefab using Guid(58fb14acf50718e41ae6a15e3600dc0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892c33035dd92608dedf8e9f227467fc') in 0.077766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.003628 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Coral_27.prefab
+  artifactKey: Guid(7f4d4a2ef3deb984d9faf00f41483d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Coral_27.prefab using Guid(7f4d4a2ef3deb984d9faf00f41483d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570c8bbd04b64d3355f7e8e6d396b131') in 0.124341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.049975 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Coral_22.prefab
+  artifactKey: Guid(6ac894aefb8bc98479d0113d1e26763a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Coral_22.prefab using Guid(6ac894aefb8bc98479d0113d1e26763a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc5c3e1007405efeecfb8358ad9a5b8') in 0.146137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 3.550929 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Grass_09.prefab
+  artifactKey: Guid(b52acc14f3fec6c4f89665f024960b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Grass_09.prefab using Guid(b52acc14f3fec6c4f89665f024960b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea163d152f0ef5e6701b4708952ccee') in 0.042713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Grass_12.prefab
+  artifactKey: Guid(6d6b76e18c07aec4d8f2dbab2950af33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Grass_12.prefab using Guid(6d6b76e18c07aec4d8f2dbab2950af33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552c744ba042012b723550b3fa7763d7') in 0.049295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Grass_30.prefab
+  artifactKey: Guid(1311cf0e639b0584da652040caa20b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Grass_30.prefab using Guid(1311cf0e639b0584da652040caa20b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175da95be2103c8723e3f1bc0ae7e85d') in 0.050736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001073 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Grass_34.prefab
+  artifactKey: Guid(ca6f5004f54e79e40b95898fa3a98247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Grass_34.prefab using Guid(ca6f5004f54e79e40b95898fa3a98247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db60224a7a3e21d8d76665977e0d6663') in 0.044861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Grass_40.prefab
+  artifactKey: Guid(9f6762705378b2844bdea9c89bcdcec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Grass_40.prefab using Guid(9f6762705378b2844bdea9c89bcdcec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192009bb961923b48cd87f6f19a3348a') in 0.062996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Grass_33.prefab
+  artifactKey: Guid(616240f6f25d3cf468063750bde2b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Grass_33.prefab using Guid(616240f6f25d3cf468063750bde2b457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b10f8a3f564c96a55954a1e96a225c2') in 0.047996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.005016 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Grass_27.prefab
+  artifactKey: Guid(34666990a7216fd49902debe7e9ad0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Grass_27.prefab using Guid(34666990a7216fd49902debe7e9ad0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3698b3ab5378c2128131128a08b8711b') in 0.036400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001547 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Grass_20.prefab
+  artifactKey: Guid(75a05ef7a9bc2bc499e0e476b93bc6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Grass_20.prefab using Guid(75a05ef7a9bc2bc499e0e476b93bc6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e33ac51b94b95e8a37775affd377c16') in 0.030665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 34.114957 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Plant_Stem_04.prefab
+  artifactKey: Guid(bd6b9821323dfdf458749a03a3742760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Prefabs/Plant_Stem_04.prefab using Guid(bd6b9821323dfdf458749a03a3742760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cf57fd50055ee14fef37ac98b13e1d') in 0.045955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
