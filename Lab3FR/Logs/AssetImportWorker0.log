@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32602 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32439 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/kiwib/OneDrive/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR
+C:/Users/micha/OneDrive/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61085
-Successfully changed project path to: C:/Users/kiwib/OneDrive/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR
-C:/Users/kiwib/OneDrive/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR
+62129
+Successfully changed project path to: C:/Users/micha/OneDrive/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR
+C:/Users/micha/OneDrive/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,67 +49,67 @@ C:/Users/kiwib/OneDrive/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2484] Host "[IP] 10.16.55.68 [Port] 0 [Flags] 2 [Guid] 1602777822 [EditorId] 1602777822 [Version] 1048832 [Id] WindowsEditor(7,keira) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18776] Host "[IP] 10.1.121.5 [Port] 0 [Flags] 2 [Guid] 4198722972 [EditorId] 4198722972 [Version] 1048832 [Id] WindowsEditor(7,MK_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2484] Host "[IP] 10.16.55.68 [Port] 0 [Flags] 2 [Guid] 1602777822 [EditorId] 1602777822 [Version] 1048832 [Id] WindowsEditor(7,keira) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18776] Host "[IP] 10.1.121.5 [Port] 0 [Flags] 2 [Guid] 4198722972 [EditorId] 4198722972 [Version] 1048832 [Id] WindowsEditor(7,MK_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 15.19 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 7043.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.17f1 (4fc78088f837)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/kiwib/OneDrive/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR/Assets
+[Subsystems] Discovering subsystems at path C:/Users/micha/OneDrive/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
     Vendor:   NVIDIA
-    VRAM:     3978 MB
-    Driver:   31.0.15.3892
+    VRAM:     7960 MB
+    Driver:   32.0.15.6641
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011866 seconds.
-- Loaded All Assemblies, in  0.548 seconds
+Registered in 0.710699 seconds.
+- Loaded All Assemblies, in 12.089 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.418 seconds
-Domain Reload Profiling: 964ms
-	BeginReloadAssembly (158ms)
+- Finished resetting the current domain, in  0.532 seconds
+Domain Reload Profiling: 12618ms
+	BeginReloadAssembly (9866ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (89ms)
-	LoadAllAssembliesAndSetupDomain (213ms)
-		LoadAssemblies (155ms)
+	RebuildCommonClasses (318ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (817ms)
+	LoadAllAssembliesAndSetupDomain (1067ms)
+		LoadAssemblies (9863ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (209ms)
-			TypeCache.Refresh (207ms)
-				TypeCache.ScanAssembly (188ms)
+		AnalyzeDomain (1062ms)
+			TypeCache.Refresh (1057ms)
+				TypeCache.ScanAssembly (1032ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (419ms)
+	FinalizeReload (533ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (324ms)
+		SetupLoadedEditorAssemblies (432ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (12ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (229ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,165 +117,53 @@ Domain Reload Profiling: 964ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.030 seconds
-Refreshing native plugins compatible for Editor in 7.46 ms, found 3 plugins.
+- Loaded All Assemblies, in  5.269 seconds
+Refreshing native plugins compatible for Editor in 3.28 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.128 seconds
-Domain Reload Profiling: 2151ms
-	BeginReloadAssembly (197ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (674ms)
-		LoadAssemblies (440ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (347ms)
-			TypeCache.Refresh (306ms)
-				TypeCache.ScanAssembly (281ms)
-			ScanForSourceGeneratedMonoScriptInfo (29ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1129ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (840ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (123ms)
-			ProcessInitializeOnLoadAttributes (643ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 13.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3562 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (109.4 KB). Loaded Objects now: 4047.
-Memory consumption went from 227.6 MB to 227.5 MB.
-Total: 5.804300 ms (FindLiveObjects: 0.344200 ms CreateObjectMapping: 0.393700 ms MarkObjects: 4.738800 ms  DeleteObjects: 0.326000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 659085.390320 seconds.
-  path: Assets/Bacteria Model
-  artifactKey: Guid(09b11330b11294448b6e0c1466fd45ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bacteria Model using Guid(09b11330b11294448b6e0c1466fd45ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217793d7b6ece1dc62eed97069e7ae4e') in 0.003801 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 15.024888 seconds.
-  path: Assets/Bacteria Model/bacteria stage 1.fbx
-  artifactKey: Guid(c6453f82d890ac246bfd14022092ca33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bacteria Model/bacteria stage 1.fbx using Guid(c6453f82d890ac246bfd14022092ca33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d73e9bafe9ec692057720362f3c170') in 0.216167 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 39.517385 seconds.
-  path: Assets/Bacteria Model/bacteria stage 1_openPBR_shader1_BaseMap.png
-  artifactKey: Guid(f7372da4076264743b1d39fb4dc0d029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bacteria Model/bacteria stage 1_openPBR_shader1_BaseMap.png using Guid(f7372da4076264743b1d39fb4dc0d029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ce5e2b4c8f7ba8f386af25d3f5f8ef') in 0.053478 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 15.686699 seconds.
-  path: Assets/Bacteria Model/M_Bactera.mat
-  artifactKey: Guid(0f871772928795940b94729b265ab222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bacteria Model/M_Bactera.mat using Guid(0f871772928795940b94729b265ab222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8decc73b8589044da3964c242cca33') in 0.022855 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 4.374356 seconds.
-  path: Assets/Bacteria Model/M_Bacteria.mat
-  artifactKey: Guid(0f871772928795940b94729b265ab222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bacteria Model/M_Bacteria.mat using Guid(0f871772928795940b94729b265ab222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fde58d48e96aece298528d857c38d1') in 0.029922 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 104.593711 seconds.
-  path: Assets/Material/EnemyBulletMat.mat
-  artifactKey: Guid(4ef2855231608be45aab6d83317ceb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/EnemyBulletMat.mat using Guid(4ef2855231608be45aab6d83317ceb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceffb272690940e160b7ef00da70dc00') in 0.042540 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.493 seconds
-Refreshing native plugins compatible for Editor in 5.98 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.383 seconds
-Domain Reload Profiling: 1874ms
-	BeginReloadAssembly (177ms)
+- Finished resetting the current domain, in  0.772 seconds
+Domain Reload Profiling: 6038ms
+	BeginReloadAssembly (145ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (229ms)
-		LoadAssemblies (297ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (5030ms)
+		LoadAssemblies (4923ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1384ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (169ms)
+				TypeCache.ScanAssembly (155ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (773ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (639ms)
+		SetupLoadedEditorAssemblies (626ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (99ms)
-			ProcessInitializeOnLoadAttributes (470ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (517ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 7.76 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 4.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3522 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (74.4 KB). Loaded Objects now: 4095.
-Memory consumption went from 225.4 MB to 225.3 MB.
-Total: 4.854900 ms (FindLiveObjects: 0.341400 ms CreateObjectMapping: 0.277700 ms MarkObjects: 4.082100 ms  DeleteObjects: 0.152200 ms)
+Unloading 3562 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (108.6 KB). Loaded Objects now: 4047.
+Memory consumption went from 228.2 MB to 228.1 MB.
+Total: 3.072900 ms (FindLiveObjects: 0.197900 ms CreateObjectMapping: 0.075100 ms MarkObjects: 2.640200 ms  DeleteObjects: 0.158500 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -293,51 +181,51 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.504 seconds
-Refreshing native plugins compatible for Editor in 5.75 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.469 seconds
+Refreshing native plugins compatible for Editor in 3.59 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.393 seconds
-Domain Reload Profiling: 1895ms
-	BeginReloadAssembly (167ms)
+- Finished resetting the current domain, in  1.189 seconds
+Domain Reload Profiling: 1654ms
+	BeginReloadAssembly (170ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (243ms)
-		LoadAssemblies (316ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (222ms)
+		LoadAssemblies (300ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1394ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1189ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (626ms)
+		SetupLoadedEditorAssemblies (589ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (103ms)
-			ProcessInitializeOnLoadAttributes (457ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (481ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 8.27 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3523 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (90.5 KB). Loaded Objects now: 4098.
-Memory consumption went from 227.6 MB to 227.5 MB.
-Total: 5.523200 ms (FindLiveObjects: 0.501900 ms CreateObjectMapping: 0.607800 ms MarkObjects: 4.145000 ms  DeleteObjects: 0.267200 ms)
+Unloading 26 unused Assets / (74.0 KB). Loaded Objects now: 4050.
+Memory consumption went from 221.3 MB to 221.2 MB.
+Total: 3.198300 ms (FindLiveObjects: 0.178200 ms CreateObjectMapping: 0.079100 ms MarkObjects: 2.798600 ms  DeleteObjects: 0.141500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -356,17 +244,398 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 320.836299 seconds.
-  path: Assets/Bacteria Model/M_Bacteria.mat
-  artifactKey: Guid(0f871772928795940b94729b265ab222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bacteria Model/M_Bacteria.mat using Guid(0f871772928795940b94729b265ab222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1694428ba46a7fc75e7f5f773c7c7bfe') in 0.244833 seconds
+  Time since last request: 360461.794548 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(1b56d2df083eedc49860d943d1e5002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(1b56d2df083eedc49860d943d1e5002e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aab7620bac6e581b1353e7737ac563b') in 0.089951 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 10.694812 seconds.
+  Time since last request: 16.528126 seconds.
+  path: Assets/Sprites/bubble temporary.png
+  artifactKey: Guid(7ccf63ca24e3e714ca0ad18639649f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/bubble temporary.png using Guid(7ccf63ca24e3e714ca0ad18639649f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a41ad0aed2c39d17087a7cbf252c838') in 0.166143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.122298 seconds.
+  path: Assets/Sprites/Character Sprites
+  artifactKey: Guid(05e98b955683a0a44ad69118848bf1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Character Sprites using Guid(05e98b955683a0a44ad69118848bf1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdd9261a3dd00deba9c746e0f366566') in 0.001533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.408541 seconds.
+  path: Assets/Bacteria Model/bacteria stage 1.fbx
+  artifactKey: Guid(c6453f82d890ac246bfd14022092ca33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bacteria Model/bacteria stage 1.fbx using Guid(c6453f82d890ac246bfd14022092ca33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96d718a59b6f095e85b4dbb39141d79') in 0.202408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
   path: Assets/Bacteria Model/bacteria stage 1_openPBR_shader1_Normal.png
   artifactKey: Guid(1e128b2d65f96c043945c87ee8c320e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bacteria Model/bacteria stage 1_openPBR_shader1_Normal.png using Guid(1e128b2d65f96c043945c87ee8c320e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fdebf993a394a01daa0a9029430519') in 0.048085 seconds
+Start importing Assets/Bacteria Model/bacteria stage 1_openPBR_shader1_Normal.png using Guid(1e128b2d65f96c043945c87ee8c320e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9041b8c811cdf33072326d4c1512653f') in 0.075538 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 57.475915 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Bones_02.fbx
+  artifactKey: Guid(8027a3d2529868740a732bdf38adb28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Bones_02.fbx using Guid(8027a3d2529868740a732bdf38adb28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2318bf040f74290d56589cfe7c1bf7bb') in 0.076410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_18.fbx
+  artifactKey: Guid(8d3e133b3a540004cabe8c050a0e4f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_18.fbx using Guid(8d3e133b3a540004cabe8c050a0e4f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6669614a0e569efd4ec2fd2d8c658a68') in 0.076603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_01.fbx
+  artifactKey: Guid(0f05894fc7ccd1b4aa421125064e1dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_01.fbx using Guid(0f05894fc7ccd1b4aa421125064e1dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533accdc1dc8e844c25ffe57f3448693') in 0.047958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_32.fbx
+  artifactKey: Guid(377f478dc89af424e8378fb08fa42933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_32.fbx using Guid(377f478dc89af424e8378fb08fa42933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0329c171a29622c3d265007d3c44b5') in 0.054936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_07.fbx
+  artifactKey: Guid(13120f4f01269714f8b8ae5407732531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_07.fbx using Guid(13120f4f01269714f8b8ae5407732531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b932041437df8190638af1d5e94a5bc') in 0.054137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_12.fbx
+  artifactKey: Guid(9b360ee27576a414dbea722945913146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_12.fbx using Guid(9b360ee27576a414dbea722945913146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c76fdb8a0a4369539b03b0dc70df06') in 0.040453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_08.fbx
+  artifactKey: Guid(7bd4248112267ca40a35cfb1f05b28e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_08.fbx using Guid(7bd4248112267ca40a35cfb1f05b28e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a0997451535b8c07c4437242d87e8c') in 0.039623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_15.fbx
+  artifactKey: Guid(b8134a8430d77dd40b7fd5ceec937e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_15.fbx using Guid(b8134a8430d77dd40b7fd5ceec937e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bd989e1534faa04a84c30ce1ec4e08') in 0.052816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_01.fbx
+  artifactKey: Guid(b421dfcbbdc702c4580aa32d45738678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_01.fbx using Guid(b421dfcbbdc702c4580aa32d45738678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab5cec2dbcba7c41ab9c347051ae489') in 0.046295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_09.fbx
+  artifactKey: Guid(85fc9229e61470f4f95635896a0146c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_09.fbx using Guid(85fc9229e61470f4f95635896a0146c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8bf214f7e754203a6c0d8a9428d360') in 0.051715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Bones_06.fbx
+  artifactKey: Guid(652e9738e5069a14bb4d94d887027baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Bones_06.fbx using Guid(652e9738e5069a14bb4d94d887027baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137ff61d31f434608bcc1c8681eae1f1') in 0.048846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_17.fbx
+  artifactKey: Guid(2f83533e5d20080469de8658f00ba556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_17.fbx using Guid(2f83533e5d20080469de8658f00ba556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2485f3f965384f2c162f7125d03d8c') in 0.063500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Bones_05.fbx
+  artifactKey: Guid(a212cbc00d88bc24d98105800193b585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Bones_05.fbx using Guid(a212cbc00d88bc24d98105800193b585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd03fd4b3d285bf6ac2e0f6ce681cf78') in 0.035677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_04.fbx
+  artifactKey: Guid(098b5c7b40908cb44bc37188353f3e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_04.fbx using Guid(098b5c7b40908cb44bc37188353f3e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14dfe0bcf017e9e385bb3f06e8db537') in 0.032537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_09.fbx
+  artifactKey: Guid(cf58b197957630c4a97fa54b2652a0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_09.fbx using Guid(cf58b197957630c4a97fa54b2652a0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68a6a97671a6902951efaab2cbaf821') in 0.034427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_11.fbx
+  artifactKey: Guid(f03608a7edc86aa42a6f5d4726885c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_11.fbx using Guid(f03608a7edc86aa42a6f5d4726885c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a507ebdea15962a2b4d796794d2138') in 0.045420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_21.fbx
+  artifactKey: Guid(1f1573f8b801a074ea710afb6f65bb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_21.fbx using Guid(1f1573f8b801a074ea710afb6f65bb2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f825060e3314703f7a889122901c6851') in 0.035899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_26.fbx
+  artifactKey: Guid(005ab836306c4a9449a2636fb31d6fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_26.fbx using Guid(005ab836306c4a9449a2636fb31d6fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505459500d5dbbc756e0f29d65d059b0') in 0.041627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_03.fbx
+  artifactKey: Guid(4b1c9b47c89bbc54c81173fe9516bb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Coral_03.fbx using Guid(4b1c9b47c89bbc54c81173fe9516bb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d51d855a2a6d70a13578332fe401c4') in 0.044508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.230438 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_13.fbx
+  artifactKey: Guid(e12cd2270ba8a1f4da32131d93c62305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_13.fbx using Guid(e12cd2270ba8a1f4da32131d93c62305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40db565735abaa2c9497481188a346c0') in 0.047725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_16.fbx
+  artifactKey: Guid(ad7eebb15a159c042adf39a7c8ded575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_16.fbx using Guid(ad7eebb15a159c042adf39a7c8ded575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a88bf66356bd70aec35ca95a3a3ca93') in 0.047499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_26.fbx
+  artifactKey: Guid(f571df16824ba9543876748730067b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_26.fbx using Guid(f571df16824ba9543876748730067b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebabb95c6a925464b34e7267c62564c4') in 0.042759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_35.fbx
+  artifactKey: Guid(4ce6c0fb3993ee14a8120eec0cf549d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_35.fbx using Guid(4ce6c0fb3993ee14a8120eec0cf549d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60077f0c08bd179d091c6c978b48c3e') in 0.041859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_38.fbx
+  artifactKey: Guid(f12515c052766fe4299fd6ec30d33dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_38.fbx using Guid(f12515c052766fe4299fd6ec30d33dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dc51a363adf3f441ccac55c7183dbe') in 0.044110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_33.fbx
+  artifactKey: Guid(0e497d27268cc754b81e8ee2383ec45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_33.fbx using Guid(0e497d27268cc754b81e8ee2383ec45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25557497d685c9b57c6615af1edc3fdc') in 0.044816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_30.fbx
+  artifactKey: Guid(767315d6ec2c53c4d847a4a1ea5e5d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_30.fbx using Guid(767315d6ec2c53c4d847a4a1ea5e5d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d5636a38000da9477be95417e51f10') in 0.043361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_31.fbx
+  artifactKey: Guid(466502fcc8cbcd84788c253ebb1aae55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_31.fbx using Guid(466502fcc8cbcd84788c253ebb1aae55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7898efe2758fa2a7a74f56872c0f61f') in 0.046187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_17.fbx
+  artifactKey: Guid(88dad08a155a2bd48bf35a06e321acd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_17.fbx using Guid(88dad08a155a2bd48bf35a06e321acd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ab11a9056d8ba7514825a097c81c14') in 0.044083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_39.fbx
+  artifactKey: Guid(48c8ad3d1a4b8fb4291b225b67415d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Grass_39.fbx using Guid(48c8ad3d1a4b8fb4291b225b67415d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8c7bc94f37617fa5be35595b2f94b7') in 0.040936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.309851 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Plant_Stem_02.fbx
+  artifactKey: Guid(8b23ef12b6d64a549bfcb5cd2f511e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Plant_Stem_02.fbx using Guid(8b23ef12b6d64a549bfcb5cd2f511e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c49e43340027e07e2be00b4b055266c') in 0.047759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Thorns_10.fbx
+  artifactKey: Guid(e235eeeac35d63347a5977d573804eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Thorns_10.fbx using Guid(e235eeeac35d63347a5977d573804eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fd47cd363b42a5699146ba42f32443') in 0.047199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Thorns_06.fbx
+  artifactKey: Guid(bdb6350db71477c479cab23303d15817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Thorns_06.fbx using Guid(bdb6350db71477c479cab23303d15817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec87b172b92dc06f4d474246c28dc5a') in 0.047952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Thorns_03.fbx
+  artifactKey: Guid(3857e35e9c2614c488e4d3c4339dae2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Thorns_03.fbx using Guid(3857e35e9c2614c488e4d3c4339dae2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda40e9ef0e7a58841dd8ce7c1f69422') in 0.043697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Skull_01.fbx
+  artifactKey: Guid(42ed594082eace04d84a1f963d553af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Skull_01.fbx using Guid(42ed594082eace04d84a1f963d553af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f827a2cfd21fc6b4414625f54fca2d') in 0.046840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Thorns_13.fbx
+  artifactKey: Guid(bc0cc6f1f79c1244ca8e3a07d5fd72d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Thorns_13.fbx using Guid(bc0cc6f1f79c1244ca8e3a07d5fd72d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70ed80306378d8706dce5e97979ab68') in 0.046226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Thorns_01.fbx
+  artifactKey: Guid(e43d0aa132321724a9f45e4a30babfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/Pandazole Nature Environment Pack/Models/Thorns_01.fbx using Guid(e43d0aa132321724a9f45e4a30babfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479be84a1e5f3577fe4fb686f0f39111') in 0.044953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.792 seconds
+Refreshing native plugins compatible for Editor in 6.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.394 seconds
+Domain Reload Profiling: 3181ms
+	BeginReloadAssembly (285ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (375ms)
+		LoadAssemblies (498ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2395ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1171ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (940ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 13.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3522 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (90.3 KB). Loaded Objects now: 4101.
+Memory consumption went from 227.9 MB to 227.8 MB.
+Total: 9.170800 ms (FindLiveObjects: 0.446100 ms CreateObjectMapping: 0.237400 ms MarkObjects: 8.137300 ms  DeleteObjects: 0.347100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
