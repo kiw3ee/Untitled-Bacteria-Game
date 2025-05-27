@@ -9,7 +9,7 @@ public class EnemyShooting : MonoBehaviour
     public GameObject enemyBulletPrefab;
 
     public float detectionRadius = 10f;
-    public float bulletSpeed = 10f;
+    public float bulletSpeed = 20f;
     public float fireRate = 2f;
 
     private float nextFireTime = 0f;
