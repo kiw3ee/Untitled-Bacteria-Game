@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class EnemyProjectile : MonoBehaviour
 {
-    public float life = 3;
+    public float life = 25f;
     public string playerTag = "Player";
+    public int damageAmount = 25; 
 
     void Awake()
     {
@@ -14,9 +15,12 @@ public class EnemyProjectile : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag(playerTag))
+        HealthScript hs = other.GetComponent<HealthScript>();
+        if (hs != null)
         {
-            Destroy(gameObject); //destroys projectile
-        }  
+            hs.currentHealth -= damageAmount;
+        }
+
+        Destroy(gameObject);
     }
 }

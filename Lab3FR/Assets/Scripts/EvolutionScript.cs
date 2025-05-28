@@ -11,8 +11,7 @@ public class EvolutionScript : MonoBehaviour
     private bool evolutionOne = false;
     private bool evolutionTwo = false;
     private bool evolutionThree = false;
-    //private bool evolutionFour = false;
-    //private bool evolutionFinal = false;
+    private bool evolutionFinal = false;
 
     //calling other scripts
     public HealthScript healthScript;
@@ -51,21 +50,14 @@ public class EvolutionScript : MonoBehaviour
             bacteriaModel.transform.localScale *= 1.75f;
         }
 
-        /*commenting out, fourth evolution not needed but keeping just in case
-         * if (!evolutionFour && KillCounter.instance != null && KillCounter.instance.GetKillCount() >= 4)
+        if (!evolutionFinal && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 4)
         {
-            FourthEvolution();
-            evolutionOne= false; 
-            evolutionTwo = false;
-            evolutionThree = false;
+            FinalEvolution();
 
-            evolutionFour = true;
-            if (evolutionTwo == true)
-            {
-                Debug.Log("Evolution 4 is true");
-            }
+            bacteriaModel.transform.localScale *= 2f;
         }
-        */
+
+
 
         //de-evolutions
         if (healthScript.currentHealth == 1 && evolutionTwo == true)
@@ -93,6 +85,19 @@ public class EvolutionScript : MonoBehaviour
                 Debug.Log("the player has de-evolved");
             }
         }
+
+        if (healthScript.currentHealth == 1 && evolutionFinal == true)
+        {
+            ThirdEvolution();
+
+            killCounter.killCount = 3;
+            bacteriaModel.transform.localScale *= 0.75f;
+
+            if (evolutionThree == true)
+            {
+                Debug.Log("the player has de-evolved");
+            }
+        }
     }
 
 
@@ -112,8 +117,8 @@ public class EvolutionScript : MonoBehaviour
 
         radialShot.enabled = false;
 
-        healthScript.maxHealth = 6;
-        healthScript.currentHealth = 6;
+        healthScript.maxHealth = 100;
+        healthScript.currentHealth = healthScript.currentHealth + 25;
     }
 
     void SecondEvolution()
@@ -135,8 +140,8 @@ public class EvolutionScript : MonoBehaviour
         //enabling the radial shot script
         radialShot.enabled = true;
 
-        healthScript.maxHealth = 15;
-        healthScript.currentHealth = 15;
+        healthScript.maxHealth = 200;
+        healthScript.currentHealth = healthScript.currentHealth + 25;
     }
 
     void ThirdEvolution()
@@ -156,23 +161,15 @@ public class EvolutionScript : MonoBehaviour
 
         radialShot.enabled = true;
 
-        healthScript.maxHealth = 25;
-        healthScript.currentHealth = 25;
+        healthScript.maxHealth = 300;
+        healthScript.currentHealth = healthScript.currentHealth + 50;
     }
 
-    /*commenting out, fourth evolution not needed but keeping just in case
-    void FourthEvolution()
-    {
-        Debug.Log("Evolved to level 4");
-    }
-    */
-
-    /*void FinalEvolution()
+    void FinalEvolution()
     {
         bacteriaModel.transform.localScale *= 2f;
         Debug.Log("Evolved to the final evo");
-        healthScript.maxHealth = 50;
-        healthScript.currentHealth = 50;
+        healthScript.maxHealth = 500;
+        healthScript.currentHealth = healthScript.currentHealth + 100;
     }
-    */
 }

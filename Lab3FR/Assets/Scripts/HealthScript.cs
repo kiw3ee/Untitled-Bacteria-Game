@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class HealthScript : MonoBehaviour
 {
-    public int maxHealth = 3;
+    public int maxHealth = 50;
     public int currentHealth;
 
     // Start is called before the first frame update
