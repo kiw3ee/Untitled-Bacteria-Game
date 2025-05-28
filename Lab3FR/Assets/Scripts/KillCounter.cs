@@ -6,7 +6,7 @@ public class KillCounter : MonoBehaviour
 {
     public static KillCounter instance;
 
-    private int killCount = 0;
+    public int killCount = 0;
     
     void Awake()
     {

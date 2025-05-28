@@ -9,11 +9,6 @@ public class PlayerProjectileScript : MonoBehaviour
     public GameObject bulletPrefab;
     public float bulletSpeed = 10f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
     // Update is called once per frame
     void Update()
     {
