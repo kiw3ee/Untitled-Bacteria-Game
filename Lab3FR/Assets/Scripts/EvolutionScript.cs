@@ -7,6 +7,7 @@ public class EvolutionScript : MonoBehaviour
     //variables
     public GameObject bacteriaModel1;
     public GameObject bacteriaModel2;
+    public GameObject bacteriaModel3;
 
     //evolution checks
     private bool evolutionOne = false;
@@ -26,6 +27,7 @@ public class EvolutionScript : MonoBehaviour
         radialShot.enabled = false;
         bacteriaModel1.SetActive(true);
         bacteriaModel2.SetActive(false);
+        bacteriaModel3.SetActive(false);
     }
     
     // Update is called once per frame
@@ -57,6 +59,8 @@ public class EvolutionScript : MonoBehaviour
         if (!evolutionFinal && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 8)
         {
             FinalEvolution();
+            bacteriaModel2.SetActive(false);
+            bacteriaModel3.SetActive(true);
         }
 
 
@@ -94,6 +98,9 @@ public class EvolutionScript : MonoBehaviour
         if (healthScript.currentHealth == 1 && evolutionFinal == true)
         {
             ThirdEvolution();
+
+            bacteriaModel2.SetActive(true);
+            bacteriaModel3.SetActive(false);
 
             killCounter.killCount = 3;
             bacteriaModel2.transform.localScale *= 0.75f;
@@ -172,7 +179,15 @@ public class EvolutionScript : MonoBehaviour
 
     void FinalEvolution()
     {
-        Debug.Log("Evolved to the final evo");
+        if (evolutionThree == false)
+        {
+            Debug.Log("Evolution 3 is false");
+        }
+        if (evolutionFinal == true)
+        {
+            Debug.Log("Evolved to the final evo");
+        } 
+
         healthScript.maxHealth = 500;
         healthScript.currentHealth = healthScript.currentHealth + 100;
     }

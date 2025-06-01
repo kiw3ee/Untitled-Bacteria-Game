@@ -11,7 +11,7 @@ public class CollisionHealthDecrease : MonoBehaviour
             var healthComponent = collision.GetComponent<HealthScript>();
             if (healthComponent != null)
             {
-                healthComponent.TakeDamage(1);
+                healthComponent.TakeDamage(15);
             }
         }
     }
