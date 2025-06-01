@@ -5,7 +5,8 @@ using UnityEngine;
 public class EvolutionScript : MonoBehaviour
 {
     //variables
-    public GameObject bacteriaModel;
+    public GameObject bacteriaModel1;
+    public GameObject bacteriaModel2;
 
     //evolution checks
     private bool evolutionOne = false;
@@ -23,38 +24,39 @@ public class EvolutionScript : MonoBehaviour
         //checking if health script was accessed
         Debug.Log("Score from Health Script: " + healthScript.maxHealth);
         radialShot.enabled = false;
+        bacteriaModel1.SetActive(true);
+        bacteriaModel2.SetActive(false);
     }
     
     // Update is called once per frame
     void Update()
     {
         //evolutions
-        if (!evolutionOne && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 1)
+        if (!evolutionOne && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 2)
         {
             FirstEvolution();
 
-            bacteriaModel.transform.localScale *= 1.25f;
+            bacteriaModel1.transform.localScale *= 1.25f;
         }
 
-        if (!evolutionTwo && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 2)
+        if (!evolutionTwo && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 4)
         {
             SecondEvolution();
 
-            bacteriaModel.transform.localScale *= 1.5f;
+            bacteriaModel1.SetActive(false);
+            bacteriaModel2.SetActive(true);
         }
 
-        if (!evolutionThree && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 3)
+        if (!evolutionThree && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 6)
         {
             ThirdEvolution();
 
-            bacteriaModel.transform.localScale *= 1.75f;
+            bacteriaModel2.transform.localScale *= 1.25f;
         }
 
-        if (!evolutionFinal && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 4)
+        if (!evolutionFinal && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 8)
         {
             FinalEvolution();
-
-            bacteriaModel.transform.localScale *= 2f;
         }
 
 
@@ -64,8 +66,11 @@ public class EvolutionScript : MonoBehaviour
         {
             FirstEvolution();
 
+            bacteriaModel1.SetActive(true);
+            bacteriaModel2.SetActive(false);
+
             killCounter.killCount = 1;
-            bacteriaModel.transform.localScale *= 0.75f;
+            bacteriaModel1.transform.localScale *= 0.75f;
 
             if (evolutionOne == true)
             {
@@ -78,7 +83,7 @@ public class EvolutionScript : MonoBehaviour
             SecondEvolution();
 
             killCounter.killCount = 2;
-            bacteriaModel.transform.localScale *= 0.75f;
+            bacteriaModel2.transform.localScale *= 0.75f;
 
             if (evolutionTwo == true)
             {
@@ -91,7 +96,7 @@ public class EvolutionScript : MonoBehaviour
             ThirdEvolution();
 
             killCounter.killCount = 3;
-            bacteriaModel.transform.localScale *= 0.75f;
+            bacteriaModel2.transform.localScale *= 0.75f;
 
             if (evolutionThree == true)
             {
@@ -167,7 +172,6 @@ public class EvolutionScript : MonoBehaviour
 
     void FinalEvolution()
     {
-        bacteriaModel.transform.localScale *= 2f;
         Debug.Log("Evolved to the final evo");
         healthScript.maxHealth = 500;
         healthScript.currentHealth = healthScript.currentHealth + 100;
