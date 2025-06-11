@@ -6,6 +6,7 @@ public class Projectile : MonoBehaviour
 {
     public float life = 3;
     public string enemyTag = "EnemyLevelOne";
+    public GameObject Consumable;
 
     void Awake()
     {
@@ -16,14 +17,18 @@ public class Projectile : MonoBehaviour
     {
         if(other.CompareTag(enemyTag))
         {
-            //kill counter - adds 1 kill
-            if (KillCounter.instance != null)
-            {
-                KillCounter.instance.AddKill();
-            }
-
             Destroy(other.gameObject); //destroys enemy
             Destroy(gameObject); //destroys projectile
+
+            DropItem();
         }  
+    }
+
+    private void DropItem()
+    {
+        if (Consumable != null)
+        {
+            Instantiate(Consumable, transform.position, Quaternion.identity);
+        }        
     }
 }

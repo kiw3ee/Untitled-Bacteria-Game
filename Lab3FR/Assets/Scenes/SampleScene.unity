@@ -4280,7 +4280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: acae0e27314a6e44d8cb28825c34f30d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 207.85799
+      value: 212.32
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: acae0e27314a6e44d8cb28825c34f30d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4374,9 +4374,9 @@ MonoBehaviour:
   player: {fileID: 1873918768}
   enemyBulletSpawnPoint: {fileID: 1530491013}
   enemyBulletPrefab: {fileID: 5437318683886481767, guid: 720f46c0b2656794f9fc676e66ae7670, type: 3}
-  detectionRadius: 20
+  detectionRadius: 25
   bulletSpeed: 20
-  fireRate: 4
+  fireRate: 1
 --- !u!114 &46041019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10517,9 +10517,9 @@ MonoBehaviour:
   player: {fileID: 1873918768}
   enemyBulletSpawnPoint: {fileID: 325960675}
   enemyBulletPrefab: {fileID: 5437318683886481767, guid: 720f46c0b2656794f9fc676e66ae7670, type: 3}
-  detectionRadius: 20
+  detectionRadius: 25
   bulletSpeed: 20
-  fireRate: 4
+  fireRate: 1
 --- !u!114 &140421052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16178,7 +16178,7 @@ Transform:
   m_GameObject: {fileID: 236908674}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00019, y: -0.00096, z: 0.0073}
+  m_LocalPosition: {x: -0.0002, y: -0.00096, z: 0.0228}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23598,9 +23598,9 @@ MonoBehaviour:
   player: {fileID: 1873918768}
   enemyBulletSpawnPoint: {fileID: 1920803189}
   enemyBulletPrefab: {fileID: 5437318683886481767, guid: 720f46c0b2656794f9fc676e66ae7670, type: 3}
-  detectionRadius: 20
+  detectionRadius: 25
   bulletSpeed: 20
-  fireRate: 4
+  fireRate: 1
 --- !u!64 &319593322
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -24575,7 +24575,7 @@ Transform:
   m_GameObject: {fileID: 325960674}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00019, y: -0.00096, z: 0.0073}
+  m_LocalPosition: {x: -0.0002, y: -0.00096, z: 0.0309}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33389,7 +33389,7 @@ Transform:
   m_GameObject: {fileID: 495669601}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00019, y: -0.00096, z: 0.0073}
+  m_LocalPosition: {x: -0.0002, y: -0.00096, z: 0.0256}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -56426,9 +56426,9 @@ MonoBehaviour:
   player: {fileID: 1873918768}
   enemyBulletSpawnPoint: {fileID: 236908675}
   enemyBulletPrefab: {fileID: 5437318683886481767, guid: 720f46c0b2656794f9fc676e66ae7670, type: 3}
-  detectionRadius: 20
+  detectionRadius: 25
   bulletSpeed: 20
-  fireRate: 4
+  fireRate: 1
 --- !u!114 &848020180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59620,7 +59620,7 @@ Transform:
   m_GameObject: {fileID: 890990809}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00019, y: -0.00096, z: 0.0073}
+  m_LocalPosition: {x: -0.0002, y: -0.00096, z: 0.0325}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -62668,9 +62668,9 @@ MonoBehaviour:
   player: {fileID: 1873918768}
   enemyBulletSpawnPoint: {fileID: 1385906740}
   enemyBulletPrefab: {fileID: 5437318683886481767, guid: 720f46c0b2656794f9fc676e66ae7670, type: 3}
-  detectionRadius: 20
+  detectionRadius: 25
   bulletSpeed: 20
-  fireRate: 4
+  fireRate: 1
 --- !u!114 &954055636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64180,9 +64180,9 @@ MonoBehaviour:
   player: {fileID: 1873918768}
   enemyBulletSpawnPoint: {fileID: 890990810}
   enemyBulletPrefab: {fileID: 5437318683886481767, guid: 720f46c0b2656794f9fc676e66ae7670, type: 3}
-  detectionRadius: 20
+  detectionRadius: 25
   bulletSpeed: 20
-  fireRate: 4
+  fireRate: 1
 --- !u!114 &989361922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66489,9 +66489,9 @@ MonoBehaviour:
   player: {fileID: 1873918768}
   enemyBulletSpawnPoint: {fileID: 1450117017}
   enemyBulletPrefab: {fileID: 5437318683886481767, guid: 720f46c0b2656794f9fc676e66ae7670, type: 3}
-  detectionRadius: 20
+  detectionRadius: 25
   bulletSpeed: 20
-  fireRate: 4
+  fireRate: 1
 --- !u!114 &1024869255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71037,7 +71037,7 @@ Transform:
   m_GameObject: {fileID: 1107969145}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00019, y: -0.00096, z: 0.0073}
+  m_LocalPosition: {x: -0.0002, y: -0.00096, z: 0.0301}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -82738,9 +82738,9 @@ MonoBehaviour:
   player: {fileID: 1873918768}
   enemyBulletSpawnPoint: {fileID: 495669602}
   enemyBulletPrefab: {fileID: 5437318683886481767, guid: 720f46c0b2656794f9fc676e66ae7670, type: 3}
-  detectionRadius: 20
+  detectionRadius: 25
   bulletSpeed: 20
-  fireRate: 4
+  fireRate: 1
 --- !u!114 &1326548181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -87439,7 +87439,7 @@ Transform:
   m_GameObject: {fileID: 1385906739}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00019, y: -0.00096, z: 0.0073}
+  m_LocalPosition: {x: -0.0002, y: -0.00096, z: 0.0228}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -91175,7 +91175,7 @@ Transform:
   m_GameObject: {fileID: 1450117016}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00019, y: -0.00096, z: 0.0073}
+  m_LocalPosition: {x: -0.00019, y: -0.00096, z: 0.02392}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -95838,7 +95838,7 @@ Transform:
   m_GameObject: {fileID: 1530491012}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00019, y: -0.00096, z: 0.0073}
+  m_LocalPosition: {x: -0.0002, y: -0.00096, z: 0.0242}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -97910,9 +97910,9 @@ MonoBehaviour:
   player: {fileID: 1873918768}
   enemyBulletSpawnPoint: {fileID: 1914362033}
   enemyBulletPrefab: {fileID: 5437318683886481767, guid: 720f46c0b2656794f9fc676e66ae7670, type: 3}
-  detectionRadius: 20
+  detectionRadius: 25
   bulletSpeed: 20
-  fireRate: 4
+  fireRate: 1
 --- !u!114 &1551559792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112503,7 +112503,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: acae0e27314a6e44d8cb28825c34f30d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 207.85799
+      value: 211.44
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: acae0e27314a6e44d8cb28825c34f30d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -112597,9 +112597,9 @@ MonoBehaviour:
   player: {fileID: 1873918768}
   enemyBulletSpawnPoint: {fileID: 1107969146}
   enemyBulletPrefab: {fileID: 5437318683886481767, guid: 720f46c0b2656794f9fc676e66ae7670, type: 3}
-  detectionRadius: 20
+  detectionRadius: 25
   bulletSpeed: 20
-  fireRate: 4
+  fireRate: 1
 --- !u!114 &1815015714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -115277,7 +115277,7 @@ Transform:
   m_GameObject: {fileID: 1873918762}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 280.8, y: 9.15, z: -390.7}
+  m_LocalPosition: {x: 189.4, y: 9.15, z: -253.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -115547,7 +115547,7 @@ Transform:
   m_GameObject: {fileID: 1876690353}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00019, y: -0.00096, z: 0.0073}
+  m_LocalPosition: {x: -0.0002, y: -0.00096, z: 0.0272}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -117797,7 +117797,7 @@ Transform:
   m_GameObject: {fileID: 1914362032}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00019, y: -0.00096, z: 0.0073}
+  m_LocalPosition: {x: -0.0002, y: -0.00096, z: 0.0255}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -117928,9 +117928,9 @@ MonoBehaviour:
   player: {fileID: 1873918768}
   enemyBulletSpawnPoint: {fileID: 1876690354}
   enemyBulletPrefab: {fileID: 5437318683886481767, guid: 720f46c0b2656794f9fc676e66ae7670, type: 3}
-  detectionRadius: 20
+  detectionRadius: 25
   bulletSpeed: 20
-  fireRate: 4
+  fireRate: 1
 --- !u!114 &1919636225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118039,7 +118039,7 @@ Transform:
   m_GameObject: {fileID: 1920803188}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00019, y: -0.00096, z: 0.0073}
+  m_LocalPosition: {x: -0.0002, y: -0.00096, z: 0.0264}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

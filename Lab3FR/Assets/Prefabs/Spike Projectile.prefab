@@ -148,3 +148,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: 3
   enemyTag: EnemyLevelOne
+  Consumable: {fileID: 2002899728216196568, guid: 2ed1c27bc9ed30d46a46a9c1c532628c, type: 3}
