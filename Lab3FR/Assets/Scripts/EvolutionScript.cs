@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EvolutionScript : MonoBehaviour
 {
@@ -20,6 +21,9 @@ public class EvolutionScript : MonoBehaviour
     public RadialShot radialShot;
     public KillCounter killCounter;
 
+    //scene to load for win
+    public string sceneToLoad;
+
     void Start()
     {
         //checking if health script was accessed
@@ -34,14 +38,14 @@ public class EvolutionScript : MonoBehaviour
     void Update()
     {
         //evolutions
-        if (!evolutionOne && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 2)
+        if (!evolutionOne && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 1)
         {
             FirstEvolution();
 
             bacteriaModel1.transform.localScale *= 1.25f;
         }
 
-        if (!evolutionTwo && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 4)
+        if (!evolutionTwo && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 2)
         {
             SecondEvolution();
 
@@ -49,14 +53,14 @@ public class EvolutionScript : MonoBehaviour
             bacteriaModel2.SetActive(true);
         }
 
-        if (!evolutionThree && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 6)
+        if (!evolutionThree && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 3)
         {
             ThirdEvolution();
 
             bacteriaModel2.transform.localScale *= 1.25f;
         }
 
-        if (!evolutionFinal && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 8)
+        if (!evolutionFinal && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 4)
         {
             FinalEvolution();
             bacteriaModel2.SetActive(false);
@@ -179,6 +183,11 @@ public class EvolutionScript : MonoBehaviour
 
     void FinalEvolution()
     {
+        evolutionThree = false;
+        evolutionOne = false;
+        evolutionTwo = false;
+        evolutionFinal = true;
+
         if (evolutionThree == false)
         {
             Debug.Log("Evolution 3 is false");
@@ -190,5 +199,19 @@ public class EvolutionScript : MonoBehaviour
 
         healthScript.maxHealth = 500;
         healthScript.currentHealth = healthScript.currentHealth + 100;
+    }
+    
+    //winning the game
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("OceanTop") && evolutionFinal == true)
+        {
+            SceneManager.LoadScene(sceneToLoad);
+        }
+    }
+
+    public void WinTheGame()
+    {
+        SceneManager.LoadScene(sceneToLoad);
     }
 }

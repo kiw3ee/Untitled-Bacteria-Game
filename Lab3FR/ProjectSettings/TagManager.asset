@@ -7,6 +7,7 @@ TagManager:
   - enemy
   - SpikeProjectile
   - EnemyLevelOne
+  - OceanTop
   layers:
   - Default
   - TransparentFX
