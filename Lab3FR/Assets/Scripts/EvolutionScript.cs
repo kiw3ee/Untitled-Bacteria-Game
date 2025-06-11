@@ -38,14 +38,14 @@ public class EvolutionScript : MonoBehaviour
     void Update()
     {
         //evolutions
-        if (!evolutionOne && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 1)
+        if (!evolutionOne && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 5)
         {
             FirstEvolution();
 
             bacteriaModel1.transform.localScale *= 1.25f;
         }
 
-        if (!evolutionTwo && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 2)
+        if (!evolutionTwo && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 10)
         {
             SecondEvolution();
 
@@ -53,14 +53,14 @@ public class EvolutionScript : MonoBehaviour
             bacteriaModel2.SetActive(true);
         }
 
-        if (!evolutionThree && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 3)
+        if (!evolutionThree && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 15)
         {
             ThirdEvolution();
 
             bacteriaModel2.transform.localScale *= 1.25f;
         }
 
-        if (!evolutionFinal && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 4)
+        if (!evolutionFinal && KillCounter.instance != null && KillCounter.instance.GetKillCount() == 20)
         {
             FinalEvolution();
             bacteriaModel2.SetActive(false);
@@ -73,6 +73,8 @@ public class EvolutionScript : MonoBehaviour
         if (healthScript.currentHealth == 1 && evolutionTwo == true)
         {
             FirstEvolution();
+
+            evolutionTwo = false;
 
             bacteriaModel1.SetActive(true);
             bacteriaModel2.SetActive(false);
@@ -90,6 +92,8 @@ public class EvolutionScript : MonoBehaviour
         {
             SecondEvolution();
 
+            evolutionThree = false;
+
             killCounter.killCount = 2;
             bacteriaModel2.transform.localScale *= 0.75f;
 
@@ -102,6 +106,8 @@ public class EvolutionScript : MonoBehaviour
         if (healthScript.currentHealth == 1 && evolutionFinal == true)
         {
             ThirdEvolution();
+
+            evolutionFinal = false;
 
             bacteriaModel2.SetActive(true);
             bacteriaModel3.SetActive(false);
