@@ -11860,7 +11860,7 @@ MonoBehaviour:
   enemyBulletPrefab: {fileID: 5437318683886481767, guid: 720f46c0b2656794f9fc676e66ae7670, type: 3}
   detectionRadius: 20
   bulletSpeed: 20
-  fireRate: 2
+  fireRate: 0.4
 --- !u!114 &156831157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20902,7 +20902,7 @@ Transform:
   m_GameObject: {fileID: 286924114}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0121, z: 0.0061}
+  m_LocalPosition: {x: 0, y: -0.0121, z: 0.0424}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33060,7 +33060,7 @@ MonoBehaviour:
   enemyBulletPrefab: {fileID: 5437318683886481767, guid: 720f46c0b2656794f9fc676e66ae7670, type: 3}
   detectionRadius: 20
   bulletSpeed: 20
-  fireRate: 2
+  fireRate: 0.4
 --- !u!114 &488766524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51293,7 +51293,7 @@ MonoBehaviour:
   enemyBulletPrefab: {fileID: 5437318683886481767, guid: 720f46c0b2656794f9fc676e66ae7670, type: 3}
   detectionRadius: 20
   bulletSpeed: 20
-  fireRate: 2
+  fireRate: 0.4
 --- !u!114 &749499185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57689,7 +57689,7 @@ MonoBehaviour:
   enemyBulletPrefab: {fileID: 5437318683886481767, guid: 720f46c0b2656794f9fc676e66ae7670, type: 3}
   detectionRadius: 20
   bulletSpeed: 20
-  fireRate: 2
+  fireRate: 0.4
 --- !u!114 &866709582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70288,7 +70288,7 @@ MonoBehaviour:
   enemyBulletPrefab: {fileID: 5437318683886481767, guid: 720f46c0b2656794f9fc676e66ae7670, type: 3}
   detectionRadius: 20
   bulletSpeed: 20
-  fireRate: 2
+  fireRate: 0.4
 --- !u!114 &1085849308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75375,7 +75375,7 @@ Transform:
   m_GameObject: {fileID: 1176471664}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0121, z: 0.0061}
+  m_LocalPosition: {x: 0, y: -0.0121, z: 0.038}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -77822,7 +77822,7 @@ MonoBehaviour:
   enemyBulletPrefab: {fileID: 5437318683886481767, guid: 720f46c0b2656794f9fc676e66ae7670, type: 3}
   detectionRadius: 20
   bulletSpeed: 20
-  fireRate: 2
+  fireRate: 0.4
 --- !u!114 &1191494298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81531,7 +81531,7 @@ Transform:
   m_GameObject: {fileID: 1292273282}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0121, z: 0.0061}
+  m_LocalPosition: {x: 0, y: -0.0121, z: 0.054}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -105811,7 +105811,7 @@ Transform:
   m_GameObject: {fileID: 1707383552}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0121, z: 0.0061}
+  m_LocalPosition: {x: 0, y: -0.0121, z: 0.061}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -115277,7 +115277,7 @@ Transform:
   m_GameObject: {fileID: 1873918762}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 189.4, y: 9.15, z: -253.2}
+  m_LocalPosition: {x: 256.1, y: 9.15, z: -422.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -118503,7 +118503,7 @@ Transform:
   m_GameObject: {fileID: 1927108363}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0121, z: 0.0061}
+  m_LocalPosition: {x: 0, y: -0.0121, z: 0.046}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -122533,7 +122533,7 @@ Transform:
   m_GameObject: {fileID: 2006350326}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0121, z: 0.0061}
+  m_LocalPosition: {x: 0, y: -0.0121, z: 0.054}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
