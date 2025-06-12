@@ -79,7 +79,7 @@ public class EvolutionScript : MonoBehaviour
             bacteriaModel1.SetActive(true);
             bacteriaModel2.SetActive(false);
 
-            killCounter.killCount = 1;
+            killCounter.killCount = 3;
             bacteriaModel1.transform.localScale *= 0.75f;
 
             if (evolutionOne == true)
@@ -94,7 +94,7 @@ public class EvolutionScript : MonoBehaviour
 
             evolutionThree = false;
 
-            killCounter.killCount = 2;
+            killCounter.killCount = 7;
             bacteriaModel2.transform.localScale *= 0.75f;
 
             if (evolutionTwo == true)
@@ -112,7 +112,7 @@ public class EvolutionScript : MonoBehaviour
             bacteriaModel2.SetActive(true);
             bacteriaModel3.SetActive(false);
 
-            killCounter.killCount = 3;
+            killCounter.killCount = 12;
             bacteriaModel2.transform.localScale *= 0.75f;
 
             if (evolutionThree == true)
