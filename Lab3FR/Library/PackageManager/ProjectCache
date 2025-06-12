@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638853436181975750
-    m_Hash: 2975858131
+      ticks: 638853444568616887
+    m_Hash: 3593244041
   m_LockFileStatus:
     m_FilePath: C:/Users/kiwib/OneDrive/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638853436182137499
-    m_Hash: 2368340936
+      ticks: 638853444568636909
+    m_Hash: 3369274725
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
