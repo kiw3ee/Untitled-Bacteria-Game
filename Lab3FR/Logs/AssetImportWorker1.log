@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32602 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 65224 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/kiwib/OneDrive/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR
+C:/Users/newaz/OneDrive - Drexel University/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53653
-Successfully changed project path to: C:/Users/kiwib/OneDrive/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR
-C:/Users/kiwib/OneDrive/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR
+50660
+Successfully changed project path to: C:/Users/newaz/OneDrive - Drexel University/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR
+C:/Users/newaz/OneDrive - Drexel University/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,67 +49,65 @@ C:/Users/kiwib/OneDrive/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14192] Host "[IP] 10.0.0.149 [Port] 0 [Flags] 2 [Guid] 2364497805 [EditorId] 2364497805 [Version] 1048832 [Id] WindowsEditor(7,keira) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22096] Host "[IP] 192.168.1.24 [Port] 0 [Flags] 2 [Guid] 3583444498 [EditorId] 3583444498 [Version] 1048832 [Id] WindowsEditor(7,Nolans-Alienware-M16) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14192] Host "[IP] 10.0.0.149 [Port] 0 [Flags] 2 [Guid] 2364497805 [EditorId] 2364497805 [Version] 1048832 [Id] WindowsEditor(7,keira) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22096] Host "[IP] 192.168.1.24 [Port] 0 [Flags] 2 [Guid] 3583444498 [EditorId] 3583444498 [Version] 1048832 [Id] WindowsEditor(7,Nolans-Alienware-M16) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 11.71 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 39.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.17f1 (4fc78088f837)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/kiwib/OneDrive/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR/Assets
+[Subsystems] Discovering subsystems at path C:/Users/newaz/OneDrive - Drexel University/Documents/GitHub/Untitled-Bacteria-Game/Lab3FR/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
     Vendor:   NVIDIA
-    VRAM:     3978 MB
-    Driver:   31.0.15.3892
+    VRAM:     7948 MB
+    Driver:   32.0.15.7628
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010529 seconds.
-- Loaded All Assemblies, in  0.468 seconds
+Registered in 0.016999 seconds.
+- Loaded All Assemblies, in  0.498 seconds
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.283 seconds
-Domain Reload Profiling: 747ms
-	BeginReloadAssembly (130ms)
+- Finished resetting the current domain, in  0.382 seconds
+Domain Reload Profiling: 876ms
+	BeginReloadAssembly (162ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (76ms)
-	LoadAllAssembliesAndSetupDomain (193ms)
-		LoadAssemblies (127ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (177ms)
+		LoadAssemblies (156ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (190ms)
-			TypeCache.Refresh (189ms)
-				TypeCache.ScanAssembly (174ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (172ms)
+				TypeCache.ScanAssembly (156ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (283ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (383ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (217ms)
+		SetupLoadedEditorAssemblies (303ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (143ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (209ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,52 +115,55 @@ Domain Reload Profiling: 747ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.676 seconds
-Refreshing native plugins compatible for Editor in 5.25 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.998 seconds
+Refreshing native plugins compatible for Editor in 9.40 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.650 seconds
-Domain Reload Profiling: 1323ms
-	BeginReloadAssembly (135ms)
+- Finished resetting the current domain, in  0.862 seconds
+Domain Reload Profiling: 1852ms
+	BeginReloadAssembly (198ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (446ms)
-		LoadAssemblies (300ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (664ms)
+		LoadAssemblies (518ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (219ms)
-			TypeCache.Refresh (194ms)
-				TypeCache.ScanAssembly (177ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (651ms)
+		AnalyzeDomain (268ms)
+			TypeCache.Refresh (234ms)
+				TypeCache.ScanAssembly (215ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (863ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (460ms)
+		SetupLoadedEditorAssemblies (665ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (345ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (478ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (15ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 3.73 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 10.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3600 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (125.4 KB). Loaded Objects now: 4085.
-Memory consumption went from 228.4 MB to 228.3 MB.
-Total: 2.858400 ms (FindLiveObjects: 0.252100 ms CreateObjectMapping: 0.110500 ms MarkObjects: 2.309200 ms  DeleteObjects: 0.185600 ms)
+Unloading 4324 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (104.8 KB). Loaded Objects now: 4803.
+Memory consumption went from 247.2 MB to 247.1 MB.
+Total: 4.671800 ms (FindLiveObjects: 0.282200 ms CreateObjectMapping: 0.108400 ms MarkObjects: 4.013800 ms  DeleteObjects: 0.265700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,44 +181,84 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 33462.589979 seconds.
-  path: Assets/Sprites/UI Sprites/you won.png
-  artifactKey: Guid(0201f6ff4545a974fb810f6c2c2d3aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/UI Sprites/you won.png using Guid(0201f6ff4545a974fb810f6c2c2d3aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb70060fa49212a3b7dd99c0579f553') in 0.072536 seconds
+  Time since last request: 294116.791321 seconds.
+  path: Assets/Environment Assets/smooth-sand-dunes-2048x2048.jpg
+  artifactKey: Guid(47f2a18f8b25d074b922e9c8650ac585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/smooth-sand-dunes-2048x2048.jpg using Guid(47f2a18f8b25d074b922e9c8650ac585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e0f024c5b5e75906d8ee8d6ebb961b') in 0.080714 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 82.124018 seconds.
-  path: Assets/Material/Consumable.mat
-  artifactKey: Guid(a702014f718fce24ba9db918f5c27d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Consumable.mat using Guid(a702014f718fce24ba9db918f5c27d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf61563300ffb576a3cda8e52b97158f') in 0.167472 seconds
+  Time since last request: 0.000042 seconds.
+  path: Assets/Environment Assets/sand.mat
+  artifactKey: Guid(9e71416b85333cb4da85383df7e28d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Assets/sand.mat using Guid(9e71416b85333cb4da85383df7e28d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b9e43a61d9f5f54561356b7e7b1989') in 0.119131 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Models/Enemies/Type02/Enemy02_M.mat
-  artifactKey: Guid(41b3d509eaf4ee043963af78a2ecf1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Enemies/Type02/Enemy02_M.mat using Guid(41b3d509eaf4ee043963af78a2ecf1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded8ec565017a7746ded3b8d4b19dc79') in 0.045877 seconds
+  Time since last request: 50.861399 seconds.
+  path: Assets/Models/Bacteria Model/bacteria stage 3.fbx
+  artifactKey: Guid(a0878e2aacbdda64ca66900dac97ac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bacteria Model/bacteria stage 3.fbx using Guid(a0878e2aacbdda64ca66900dac97ac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a10e3c26fce85c20c80a34a132c0109') in 0.098783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SkySeries Freebie/UnderTheSea4k.mat
+  artifactKey: Guid(119ec07f1c7ed204db46bd8465fd5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/UnderTheSea4k.mat using Guid(119ec07f1c7ed204db46bd8465fd5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9410320b7577552e835f835dc15227fe') in 0.072624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Models/Enemies/Type02/Enemy02_Fixed.fbx
+  artifactKey: Guid(acae0e27314a6e44d8cb28825c34f30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Type02/Enemy02_Fixed.fbx using Guid(acae0e27314a6e44d8cb28825c34f30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4270e0e9e5aef28584346765357e935c') in 0.036011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/SkySeries Freebie/FreebieHdri/Materials/UnderTheSea4k.mat
+  artifactKey: Guid(e0d75b2f17fcacd418308dfccc61a307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/FreebieHdri/Materials/UnderTheSea4k.mat using Guid(e0d75b2f17fcacd418308dfccc61a307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49dbff452ffe529fc89844b6baf653b2') in 0.056293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Enemies/Type_03/Enemy03.fbx
+  artifactKey: Guid(4bc807174313be24bb3d0aed5190a16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Type_03/Enemy03.fbx using Guid(4bc807174313be24bb3d0aed5190a16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3b5de48d6eb633355741ffc8c49314') in 0.035927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Enemies/Type_01/Enemy01.fbx
+  artifactKey: Guid(a59864728328d8d45883b23bff3ef9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Enemies/Type_01/Enemy01.fbx using Guid(a59864728328d8d45883b23bff3ef9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b5b5f0b29eb934b28d8d7d03a7c4e2') in 0.038210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1.490061 seconds.
+  path: Assets/Models/Bacteria Model/M_Bacteria_Stage3.mat
+  artifactKey: Guid(2174cb19fc77b474794b483410b092ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bacteria Model/M_Bacteria_Stage3.mat using Guid(2174cb19fc77b474794b483410b092ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec9399d8b90367fd6b403533e5c3699') in 0.033059 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Material/EnemyBulletMat.mat
-  artifactKey: Guid(4ef2855231608be45aab6d83317ceb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/EnemyBulletMat.mat using Guid(4ef2855231608be45aab6d83317ceb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceffb272690940e160b7ef00da70dc00') in 0.019640 seconds
+  Time since last request: 0.000181 seconds.
+  path: Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand11.mat
+  artifactKey: Guid(8debb04501dd4a141b2f477ac8afad1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand11.mat using Guid(8debb04501dd4a141b2f477ac8afad1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42a2b26aa31be565641891fdf59e46b') in 0.030803 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat
-  artifactKey: Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat using Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22588071e01de2efea93652da060d294') in 0.048701 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 4
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
